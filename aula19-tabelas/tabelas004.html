@@ -1,41 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="tabelas004.css">
 </head>
 <body>
   <h1>Tabelas</h1>
-  <h2>Tabelas Simples</h2>
-  <p> tabelas sao um recurso muito importante para a organizacao dados no geral, em HTML para criar uma tabela usa-se a tang table e, dentro dela, alumas tangs de definição de conteudo, tais como: </p>
-  <ul>
-    <li><code>tr</code> ( Table Row)- linha da tabela</li>
-    <li><code>tr</code>(Table Header)- cabeçalho da tabela</li>
-    <li><code>tr</code>(Table Data)- dado da tabela</li>
-  </ul>
-  <p> Uma tabela simples tem geralmente esta aparência</p> 
-  <table>
+  <div>
+    <h2>Tabelas Simples</h2>
+    <p> tabelas sao um recurso muito importante para a organizacao dados no geral, em HTML para criar uma tabela usa-se a tang table e, dentro dela, alumas tangs de definição de conteudo, tais como: </p>
+    <ul>
+      <li><code>tr</code> ( Table Row)- linha da tabela</li>
+      <li><code>tr</code>(Table Header)- cabeçalho da tabela</li>
+      <li><code>tr</code>(Table Data)- dado da tabela</li>
+    </ul>
+    <p> Uma tabela simples tem geralmente esta aparência</p>
+    <table class="tabela">
+      <tr>
+        <th>Codigo</th>
+        <th>Nomes</th>
+        <th>Dados</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Alfredo</td>
+        <td>Dados 1</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Guilherme</td>
+        <td>Dados 2</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Larissa</td>
+        <td>Dados 3</td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <h2>Anatonomia de Tabelas</h2>
+    <p>Essa anatonomia é utilizada para tabelas grandes e melhora o resultados em <strong>sites de busca</strong>, consiste em adicionar os seguientes elementos na tabela:</p>
+   <li><code>caption</code>- Legenda/ Descrição</li>
+   <li><code>Thead</code> Initial-scale Cabeçalho</li>
+   <li><code>tbody</code> -corpo</li>
+   <li><code>tfoot</code> -Rodapé</li>
+   <P> todos essses elementos podem conter seus proprios <code>tr , td e th</code>( menos o <code>caption</code>) </P>
+   <p> Independende da ordem que voce colocar as tangs da anatomia, o navegador <strong> sempre</strong> vai organizar na ortem correta.</p>
+
+  <h2>Scope</h2>
+  <p>É um atributo de um th que indica para qual direção o titulo estar mostrando os dados, pode ter os valores:</p>
+  <li><code>row </code>- Dados em coluna</li>
+  <li><code> col</code> - Dados em coluna</li>
+  <li><code>colgroup</code>- Dados num conjunto de colunas( para celulas bmescladas)</li>
+  <li><code>rowgroup</code>- Dados num conjunto de linhas ( para células mescladas)</li>
+  <P> Obs: Esses atributo é extremamente util para ajudar o site a ser relevante em <strong>sites de busca</strong>. Um exemplo de uma tebela utilizando todos os atributos da anatonomia citada a cima pode ser visto a seguir:
+  </P>
+  <table class="boletim">
+ <caption>Boletim</caption>
+  <tr>
+   <th>Aluno</th>
+   <th>Nota</th>
+  </tr>
+  <tr>
+    <td>Ana</td>
+    <td>8</td>
+  </tr>
+  <TR>
+    <td>Dimi</td>
+    <td>7</td>
     <tr>
-      <th>Codigo</th>
-      <th>Nomes</th>
-      <th>Dados</th>
+      <td>Gustavo</td>
+      <td>10</td>
     </tr>
-    <tr>
-      <td>001</td>
-      <td>Alfredo</td>
-      <td>Dados 1</td>
-    </tr>
-    <tr>
-      <td>002</td>
-      <td>Guilherme</td>
-      <td>Dados 2</td>
-    </tr>
-    <tr>
-      <td>003</td>
-      <td>Larissa</td>
-      <td>Dados 3</td>
-    </tr>
-  </table>
+  </TR>
+  <tr>
+    <td>Lais</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Rodrigo</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Samira</td>
+    <td>6</td>
+  </tr>
+  <tr>
+<td>Vinicius</td>
+<td>8</td>
+  </tr>
+  <tr>
+    <th>Media</th>
+    <th>7,2</th>
+  </tr>
+</table>
+    </div>
+    <h2>Masclagem de celulas</h2>
+    <p>Mesclar celulas em uma tabela é algo bem comum e importante, em HTML, é necessario os seguintes atributos nas tags <code>th </code>ou <code>td</code></p>
+  
 </body>
 </html>
