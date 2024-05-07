@@ -1,7 +1,17 @@
 .checkebox{
   border: 1px solid black;
   margin: 5px;
-  width: 190px;
-  background-color: rgb(243, 99, 47);
-  he
+  width: 300px;
+  background-color: rgb(216, 112, 94);
+  color: white;
+border-radius: 10px;
+height: 30px;
+  }
+
+fieldset{
+  font-style: normal;
+  color: black ;
+}
+main{
+ display: flex; 
 }
