@@ -1,18 +1,51 @@
-.checkebox{
-  border: 1px solid black;
-  margin: 5px;
-  width: 300px;
-  background-color: rgb(216, 112, 94);
-  color:white;
-border-radius: 10px;
-height: 30px;
 
-  }
 
 fieldset{
   font-style: normal;
   color: black ;
+  width: 500px;
+  margin: auto;
 }
 main{
- display: flex; 
+  background-color: #bf8c91;
+  display: flex;
+  
+
 }
+article{
+  background-color: white;
+  border: 1px solid #ffffff;
+  width: 520px;
+  height: 1120px;
+  margin: auto;
+}
+.coluna{
+  display: flex;
+  justify-content: center;
+}
+.coluna1, .coluna2{
+  color: white;
+  text-align: center;
+}
+
+.bora{
+
+border: 1px solid black;
+margin: 5px;
+width: 200px;
+background-color: rgb(216, 112, 94);
+
+border-radius: 10px;
+height: 30px;
+}
+h1{
+  text-align: center;
+}
+.espaço{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color:#4E75A3 ;
+}
+
