@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ <form action="" method="POST">
+  <P>
+  <label for="iduf">selecione o Estado</label>
+  <select name="uf" id="iduf">
+    <optgroup label="Nordeste">
+      <option value="CE">Ceará</option>
+      <option value="PA">Paraiba</option>
+      <option value="PE">Pernabuco</option>
+    </optgroup>
+    <optgroup label="Sudeste">
+      <option value="SP">São paula</option>
+      <option value="RJ">Rio de janeiro</option>
+      <option value="MG">Minas gerais</option>
+    </optgroup>
+    <optgroup label=" Centro-Oeste">
+      <option value="GO">Goiás</option>
+      <optgroup label="Sul">
+        <option value="RS">Rio grande do sul</option>
+<optgroup label="">
+
+</optgroup>
+
+      </optgroup>
+
+    </optgroup>
+  </select>
+  </P>
+
+  <p>
+    <label for="iddesc"> Descreva as caracteristicas do estado selecionado</label><br>
+    <textarea name="desc " id="isdesc" cols="30" rows="20"></textarea>
+  </p>
+
+  <p>
+    <label for="idprof">Profissão:</label>
+    <input type="text" name="prof" id="idprof" list="idlista">
+    <datalist id="idlista">
+      <option value="Adiministrador"></option>
+      <option value="Contabilista"></option>
+      <option value="Gestor de RH"></option>
+      <option value="Animador"></option>
+
+    </datalist>
+  </p>
+  <input type="submit" value="Enviar">
+ </form>
+</body>
+</html>
