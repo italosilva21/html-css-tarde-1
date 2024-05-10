@@ -3,20 +3,46 @@
 fieldset{
   font-style: normal;
   color: black ;
-  width: 500px;
+  width: 450px;
   margin: auto;
+  border: 1px solid #bf8c91;
 }
 main{
   background-color: #bf8c91;
   display: flex;
+  border-radius: 5px;
+margin: auto;
+width: 520px;
+height: 1120px;
+
   
 
+}
+legend{
+color: #bf8c91;
+
+}
+label{
+  color: #4E7096;
+}
+p{
+  color: #93B0C3;
+}
+em{
+  border: 1px solid #bf8c91;
+  border-radius: 5px;
+  background-color: #bf8c91;
+  color: white;
+}
+.prff{
+  color: black;
+  text-align: center;
 }
 article{
   background-color: white;
   border: 1px solid #ffffff;
-  width: 520px;
-  height: 1120px;
+  width: 500px;
+  height: 1080px;
   margin: auto;
 }
 .coluna{
@@ -26,6 +52,20 @@ article{
 .coluna1, .coluna2{
   color: white;
   text-align: center;
+}
+.local{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.turum{
+  border: 1px solid #4E75A3;
+  color: aliceblue;
+  background-color: #78A8BF;
+  border-radius: 5px; 
+  width: 150px;
+  text-align: center;
+
 }
 
 .bora{
@@ -48,4 +88,11 @@ h2{
   text-align: center;
   color:#4E75A3 ;
 }
-
+.tpr{
+  width: 300px;
+  border: 1px solid #bf8c91;
+}
+.trd{
+  width: 80px;
+  border: 1px solid #bf8c91;
+}
