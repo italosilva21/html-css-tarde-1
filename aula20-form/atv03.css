@@ -1,0 +1,14 @@
+.local{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+#idEmail{
+  border: 3px solid #6495ED;
+  border-bottom: 3px solid white;
+}
+.it{
+  text-align: 1px solid black;
+  background-color: #6495ED;
+  margin: 60px;
+}
